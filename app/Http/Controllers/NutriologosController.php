@@ -11,7 +11,7 @@ class NutriologosController extends Controller
     public function index()
     {
         $medicos = Medico::All()
-            ->where('area_id', '=', 34);
+            ->where('area_id', '=', 32);
         //dd($medicos);
         //$data = [];
         //$data['medicos'] = $medicos;
