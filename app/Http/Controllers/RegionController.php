@@ -20,4 +20,9 @@ class RegionController extends Controller
     {
         return view('region.contact');
     }
+
+    public function podcast()
+    {
+        return view('region.podcast');
+    }
 }

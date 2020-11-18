@@ -145,7 +145,6 @@
                                             <li class="dropdown">
                                                 <a href="#" class="dropdown-toggle">Médicos <b class="caret right"></b></a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="{{ route('cardiologos-show') }}">Cardiólogos</a></li>
                                                     <li><a href="{{ route('cirujanos-show') }}">C. Plásticos</a></li>
                                                     <li><a href="{{ route('dermatologia-show') }}">Dermatólogos</a></li>
                                                     <li><a href="{{ route('endocrinologos-show') }}">Endocrinólogos</a></li>
@@ -160,6 +159,16 @@
                                                     <li><a href="{{ route('psiquiatras-show') }}">Psiquiatras</a></li>
                                                     <li><a href="{{ route('reumatologos-show') }}">Reumatólogos</a></li>
                                                     <li><a href="{{ route('traumatologos-show') }}">Traumatólogos</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="dropdown">
+                                                <a href="#" class="dropdown-toggle">Cardiólogos <b class="caret right"></b></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="{{ route('cardiologos-show') }}">Cardiólogos</a></li>
+                                                    <li><a href="{{ route('ecocardiografia-show') }}">Ecocardiografía</a></li>
+                                                    <li><a href="{{ route('intervencionista-show') }}">Intervencionista</a></li>
+
                                                 </ul>
                                             </li>
 
@@ -207,7 +216,7 @@
 
                                     <li><a href="{{ route('hospitales-show') }}">HOSPITALES</a></li>
                                     <li><a href="{{ route('contactus-show') }}">CONTACTANOS</a></li>
-                                    <li><a href="#">ARTICULOS</a></li>
+                                    <li><a href="{{ route('podcast') }}">PODCAST</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -288,18 +297,21 @@
         </div>
         <!--End of Carousel Inner-->
     </div>
-</section>
+</section><br>
 <!--end of slider section-->
 
-
-
-
-
-
-
-
-
 @yield ('content')
+<div class="container text-center">
+    <div id="medicos">
+        <div class="event_header text-center">
+            <h2><strong>CONOCE NUESTRO FACEBOOK</strong></h2>
+            <p>AQUÍ ENCONTRARAS NUESTRAS PUBLICACIONES Y ARTÍCULOS MÁS RECIENTES</p>
+        </div><br>
+        <div class="fb-page" data-href="https://www.facebook.com/RegionSaludCelaya/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/farmaherrera/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/farmaherrera/">Farmacia Herrera</a></blockquote></div>
+    </div>
+</div>
+
+
 <!--Start of portfolio-->
 <section id="portfolio" class="text-center">
     <div class="col-md-12">
@@ -596,9 +608,6 @@
 
 
 
-
-
-
 <!--Start of footer-->
 <section id="footer">
     <div class="container">
@@ -657,6 +666,8 @@
 <script src="{{ asset('js/isotope/isotope.pkgd.min.js') }}"></script>
 <script src="{{ asset('js/isotope/packery-mode.pkgd.min.js') }}"></script>
 <script src="{{ asset('js/isotope/scripts.js') }}"></script>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v9.0" nonce="Tz5SuZqJ"></script>
 
 
 

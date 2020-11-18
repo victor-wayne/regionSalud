@@ -30,4 +30,33 @@ class CardiologosController extends Controller
         //dd($medicos);
         return view('cardiologos.show', compact('medicos', 'comments', 'califica'));
     }
+
+    public function intervencionista()
+    {
+        $medicos = Medico::All()
+            ->where('area_id', '=', 36);
+        //dd($medicos);
+        //$data = [];
+        //$data['medicos'] = $medicos;
+
+        $areas = Area::All()
+            -> where('id', '=', 36);
+
+        return view('cardiologos.intervencionista', compact('medicos','areas'));
+    }
+
+    public function ecocardiografia()
+    {
+        $medicos = Medico::All()
+            ->where('area_id', '=', 35);
+        //dd($medicos);
+        //$data = [];
+        //$data['medicos'] = $medicos;
+
+        $areas = Area::All()
+            -> where('id', '=', 35);
+
+        return view('cardiologos.ecocardiografia', compact('medicos','areas'));
+    }
+
 }

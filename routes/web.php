@@ -44,13 +44,12 @@ Route::get('subeArticulo', [
 
 Route::post('articulo/guarda', 'ArticulosController@store')->name('articulo.guarda');
 
+Route::get('podcast-region-salud', [
+    'as' => 'podcast',
+    'uses' => 'RegionController@podcast'
+]);
 
 /* Rutas para Menu Medicos */
-
-Route::get('cardiologos', [
-    'as' => 'cardiologos-show',
-    'uses' => 'CardiologosController@index'
-]);
 
 Route::get('cirujanos', [
     'as' => 'cirujanos-show',
@@ -120,6 +119,23 @@ Route::get('reumatologos', [
 Route::get('traumatologos', [
     'as' => 'traumatologos-show',
     'uses' => 'TraumatologosController@index'
+]);
+
+/* Rutas de cardiologos */
+
+Route::get('cardiologos', [
+    'as' => 'cardiologos-show',
+    'uses' => 'CardiologosController@index'
+]);
+
+Route::get('cardiologo-intervencionista', [
+    'as' => 'intervencionista-show',
+    'uses' => 'CardiologosController@intervencionista'
+]);
+
+Route::get('cardiologo-ecocardiografia', [
+    'as' => 'ecocardiografia-show',
+    'uses' => 'CardiologosController@ecocardiografia'
 ]);
 
 

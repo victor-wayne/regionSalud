@@ -73,7 +73,6 @@
                                     <li class="dropdown">
                                         <a href="#" class="dropdown-toggle">Médicos <b class="caret right"></b></a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="{{ route('cardiologos-show') }}">Cardiólogos</a></li>
                                             <li><a href="{{ route('cirujanos-show') }}">C. Plásticos</a></li>
                                             <li><a href="{{ route('dermatologia-show') }}">Dermatólogos</a></li>
                                             <li><a href="{{ route('endocrinologos-show') }}">Endocrinólogos</a></li>
@@ -92,6 +91,16 @@
                                     </li>
 
                                     <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle">Cardiólogos <b class="caret right"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="{{ route('cardiologos-show') }}">Cardiólogos</a></li>
+                                            <li><a href="{{ route('ecocardiografia-show') }}">Ecocardiografía</a></li>
+                                            <li><a href="{{ route('intervencionista-show') }}">Intervencionista</a></li>
+
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
                                         <a href="#" class="dropdown-toggle">Màs Esp <b class="caret right"></b></a>
                                         <ul class="dropdown-menu">
                                             <li><a href="{{ route('anesteciologos-show') }}">Anestesiólogos</a></li>
@@ -99,7 +108,7 @@
                                             <li><a href="{{ route('genetistas-show') }}">Genetistas</a></li>
                                             <li><a href="{{ route('geriatras-show') }}">Geriatras</a></li>
                                             <li><a href="{{ route('medgeneral-show') }}">Med. General</a></li>
-                                            <li><a href="{{ route('nefrologos-show') }}">Nefrólogos</a></li>
+                                            <li><a href="{{ route('nefrologos-show') }}">Nefrólogo</a></li>
                                             <li><a href="{{ route('neumologos-show') }}">Neumólogos</a></li>
                                             <li><a href="{{ route('rehabilitador-show') }}">Rehabilitador</a></li>
                                             <li><a href="{{ route('urologos-show') }}">Urólogos</a></li>
@@ -128,10 +137,14 @@
 
                             <li><a href="{{ route('laboratorios-show') }}">LAB. CLINICOS</a></li>
                             <li><a href="{{ route('farmacias-show') }}">FARMACIAS Y ART.MED</a></li>
+
+
+
+
+
                             <li><a href="{{ route('hospitales-show') }}">HOSPITALES</a></li>
                             <li><a href="{{ route('contactus-show') }}">CONTACTANOS</a></li>
-
-                            <li><a href="#">ARTICULOS</a></li>
+                            <li><a href="{{ route('podcast') }}">PODCAST</a></li>
                         </ul>
                     </div>
                 </div>
