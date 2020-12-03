@@ -34,7 +34,7 @@ class CardiologosController extends Controller
     public function intervencionista()
     {
         $medicos = Medico::All()
-            ->where('area_id', '=', 36);
+            ->where('area_id', '=', 34);
         //dd($medicos);
         //$data = [];
         //$data['medicos'] = $medicos;
