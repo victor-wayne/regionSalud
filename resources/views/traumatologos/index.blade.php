@@ -19,7 +19,7 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <div class="slider_overlay">
-                    <img src="{{ asset('img/banner/banner_traumatologos.jpg') }}" alt="...">
+                    <img src="{{ asset('img/banner/traumatologos.jpg') }}" alt="...">
                     <div class="carousel-caption">
 
                     </div>
@@ -28,7 +28,7 @@
             <!--End of item With Active-->
             <div class="item">
                 <div class="slider_overlay">
-                    <img src="{{ asset('img/banner/banner_traumatologos1.jpg') }}" alt="...">
+                    <img src="{{ asset('img/banner/traumatologos_2.jpg') }}" alt="...">
                     <div class="carousel-caption">
 
                     </div>

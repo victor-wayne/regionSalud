@@ -13,7 +13,7 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <div class="slider_overlay">
-                    <img src="{{ asset('img/banner/banner_psiquiatras.jpg') }}" alt="...">
+                    <img src="{{ asset('img/banner/psiquiatras.jpg') }}" alt="...">
                     <div class="carousel-caption">
 
                     </div>
@@ -22,7 +22,7 @@
             <!--End of item With Active-->
         </div>
     </div>
-</section><hr>
+<hr>
 
 
  <div class="container text-center">

@@ -10,7 +10,7 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <div class="slider_overlay">
-                    <img src="{{ asset('img/banner/banner_nutriologos.jpg') }}" alt="...">
+                    <img src="{{ asset('img/banner/nutri.jpg') }}" alt="...">
                     <div class="carousel-caption">
 
                     </div>

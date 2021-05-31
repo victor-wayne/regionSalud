@@ -256,23 +256,14 @@
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <div class="slider_overlay">
-                    <img src="{{ asset('img/inicio2.jpg') }}" alt="...">
-                    <div class="carousel-caption">
-                        <div class="slider_text">
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <a href="{{ route('quines-somos') }}" class="custom_btn">¿Quienes Somos?</a>
-                        </div>
-                    </div>
+                    <img src="{{ asset('img/banner-region.jpg') }}" alt="...">
+
                 </div>
             </div>
             <!--End of item With Active-->
             <div class="item">
                 <div class="slider_overlay">
-                    <img src="{{ asset('img/inicio1.jpg') }}" alt="...">
+                    <img src="{{ asset('img/banner-region2.jpg') }}" alt="...">
                     <div class="carousel-caption">
                         <div class="slider_text">
 
@@ -284,7 +275,7 @@
             <!--End of Item-->
             <div class="item">
                 <div class="slider_overlay">
-                    <img src="{{ asset('img/inicio3.jpg') }}" alt="...">
+                    <img src="{{ asset('img/banner-region3.jpg') }}" alt="...">
                     <div class="carousel-caption">
                         <div class="slider_text">
 

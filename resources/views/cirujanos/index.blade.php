@@ -14,15 +14,14 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     <div class="slider_overlay">
-                        <img src="{{ asset('img/banner/banner_cplastico.jpg') }}" alt="...">
+                        <img src="{{ asset('img/banner/cirujano.jpg') }}" alt="...">
 
                     </div>
                 </div>
                 <!--End of item With Active-->
 
             </div>
-        </div>
-    </section><hr>
+        </div><hr>
 
     <div class="container text-center">
     <div id="medicos">
